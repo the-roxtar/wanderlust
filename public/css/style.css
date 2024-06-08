@@ -11,10 +11,7 @@ body{
 }
 
 /* NavBar */
-.navbar{
-    height: 5rem;
-    background-color: white;
-}
+
 
 .fa-compass{
     color: #fe424d;
@@ -26,6 +23,10 @@ body{
 }
 
 /* Footer */
+
+.insta-color{
+    color: rgb(231, 18, 64);
+}
 
 .f-info-links a {
     text-decoration: none;
@@ -125,5 +126,18 @@ body{
 /* Map */
 #map {
     height: 400px;
-    width: 50vw;
+    width: 100vh;
 }
+
+#map {
+    height: 400px;
+    width: 80vh;
+}
+
+@media screen and (max-width: 768px) {
+    #map {
+        height: 280px;
+        width: 30vh;
+    }
+}
+
